@@ -1,0 +1,199 @@
+
+body, html {
+    font-family: 'Exo', sans-serif;
+}
+
+.hero-image {
+    background-image: url("../img/Banner_ciclo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    min-height: 390px;
+    z-index: 0;
+    margin-bottom: 28px;
+    padding: 140px 0 80px 0;
+}
+
+.hero-text {
+    margin-top: 30px;
+    max-width: 100%;
+}
+
+.hero-l {
+    margin-left: 12px;
+    margin-top: 200px;
+}
+
+.hero-title-white {
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 52px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+.hero-subtitle-white {
+    font-weight: 300;
+    font-size: 42px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.hero-location {
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 37px;
+    text-align: center;
+    letter-spacing: 0.16em;
+    font-variant: all-small-caps;
+    color: #FFFFFF;
+}
+
+.hero-date {
+    font-weight: 400;
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 0.5em;
+    font-variant: all-small-caps;
+    color: #FFFFFF;
+}
+
+#intro {
+    padding: 40px 0;
+}
+
+#intro .content {
+    max-width: 600px;
+    width: 600px;
+    margin-left: calc((100% - 600px) / 2);
+}
+
+p {
+    font-size: 18px;
+    max-width: 720px;
+}
+
+#ponentes {
+    padding: 40px 0;
+}
+
+.ponentes-container {
+    padding: 16px 0;
+}
+
+.ponente {
+    /*    min-width: 200px;*/
+    margin-top: 32px;
+}
+
+.ponente-picture {
+    text-align: center;
+}
+
+.ponente-name {
+    font-weight: 600;
+    margin-top: 18px;
+    text-align: center;
+}
+
+#gallery {
+    padding: 40px 0;
+}
+
+
+#organizers {
+    padding: 60px 0;
+    background-color: #f1f1f1;
+}
+
+#organizers h3 {
+    color: #7d7d7d;
+}
+
+#footer {
+padding: 72px 0;
+background: #FBFBFB;
+box-shadow: 0 -6px 12px rgba(0, 0, 0, 0.08);
+}
+
+#footer hr {
+margin-top: 64px;
+color: #333233;
+}
+
+.copyright {
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+text-align: center;
+color: #333233;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .hero-image {
+        background-image: url("../img/Banner-movil.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        min-height: 550px;
+        padding: 16px;
+        z-index: 0;
+        margin-bottom: 24px;
+    }
+
+    .hero-text {
+        margin-top: 30px;
+        max-width: 100%;
+    }
+
+    .hero-l {
+        margin-left: 12px;
+        margin-top: 200px;
+    }
+
+    .hero-title-white {
+        font-weight: 800;
+        font-size: 42px;
+        line-height: 48px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+
+    }
+
+    .hero-subtitle-white {
+        font-weight: 300;
+        font-size: 42px;
+        line-height: 48px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    .hero-location {
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: 0.16em;
+        font-variant: all-small-caps;
+        color: #FFFFFF;
+    }
+
+    .hero-date {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 17px;
+        text-align: center;
+        letter-spacing: 0.5em;
+        font-variant: all-small-caps;
+        color: #FFFFFF;
+    }
+
+}
