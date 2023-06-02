@@ -137,7 +137,7 @@ color: #333233;
 @media only screen and (max-width: 600px) {
 
     .hero-image {
-        background-image: url("../img/Banner-movil.png");
+        background-image: url("../img/Banner-Movil.png");
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
